@@ -4,6 +4,8 @@
   "projectType": "application",
   "generators": {
     "@schematics/angular:component": {
+      "standalone": true,
+          "displayBlock": true,
       "style": "scss"
     }
   },
